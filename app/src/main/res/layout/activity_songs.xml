@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayer.MainActivity">
+
+    <ListView
+        android:id="@+id/song_list"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/listViewMarginVertical"
+        android:paddingLeft="@dimen/listViewMarginHorizontal"
+        android:paddingRight="@dimen/listViewMarginHorizontal"
+        android:paddingTop="@dimen/listViewMarginVertical" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/buttonPadding"
+        android:paddingEnd="@dimen/buttonPadding"
+        android:paddingBottom="@dimen/buttonPadding"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_home"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/nowPlayingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_nowplaying"/>
+
+    </LinearLayout>
+
+</LinearLayout>

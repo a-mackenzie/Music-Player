@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="homeIconsMarginVertical">24dp</dimen>
+    <dimen name="artistNameMarginVertical">12dp</dimen>
+    <dimen name="artistNameMarginHorizontal">24dp</dimen>
+    <dimen name="listViewMarginVertical">16dp</dimen>
+    <dimen name="listViewMarginHorizontal">16dp</dimen>
+    <dimen name="gridViewSpacing">12dp</dimen>
+    <dimen name="buttonPadding">16dp</dimen>
+    <dimen name="playPauseButtonPadding">32dp</dimen>
+    <dimen name="albumCoverPadding">48dp</dimen>
+</resources>

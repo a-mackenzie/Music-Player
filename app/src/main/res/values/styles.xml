@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myBlue</item>
+        <item name="colorPrimaryDark">@color/myBlue</item>
+        <item name="colorAccent">@color/myGrey</item>
+    </style>
+
+    <style name="activitiesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/myBlue</item>
+        <item name="colorPrimaryDark">@color/myBlue</item>
+        <item name="colorAccent">@color/myGrey</item>
+    </style>
+
+    <style name="homeFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="artistNameFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/myBlue</item>
+    </style>
+
+    <style name="numberOfAlbumsFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/myBlue</item>
+    </style>
+
+    <style name="albumNameFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/myBlue</item>
+    </style>
+
+    <style name="numberOfSongsFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/myBlue</item>
+    </style>
+
+    <style name="songFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/myBlue</item>
+    </style>
+
+    <style name="songNumberFont">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/myGrey</item>
+    </style>
+
+    <style name="nowPlayingFont1">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/myBlue</item>
+    </style>
+
+    <style name="nowPlayingFont2">
+        <item name="android:fontFamily">@font/viga</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/myGrey</item>
+    </style>
+
+</resources>
